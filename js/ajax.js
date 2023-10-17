@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log(data);
             alert('Form successfully submitted!');
+            form.reset(); // Clearing the form
         })
         .catch((error) => {
             console.error('Error:', error);

@@ -724,8 +724,11 @@
 													<p>
 														<style>
 															form.pain-form {
-																width: 600px;
+																max-width: 600px;
+																width: 100%;
 																font-family: Arial, sans-serif;
+																padding: 0 20px;
+																box-sizing: border-box;
 															}
 
 															form.pain-form .form-group {
@@ -793,7 +796,14 @@
 																margin-bottom: 10.2px;
 																/* 15% smaller */
 															}
+
+															@media (max-width: 640px) {
+																form.pain-form {
+																	padding: 0;
+																}
+															}
 														</style>
+
 
 													<form class="pain-form">
 														<div class="form-group">
