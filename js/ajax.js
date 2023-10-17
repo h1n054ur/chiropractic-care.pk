@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json()) // Assuming server responds with json
         .then(data => {
             console.log(data);
-            // Handle response here, e.g., display a success message.
+            alert('Form successfully submitted!');
         })
         .catch((error) => {
             console.error('Error:', error);
-            // Handle error here, e.g., display an error message.
+            alert('There was an error submitting the form.');
         });
     });
 });
