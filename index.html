@@ -729,66 +729,72 @@
 															}
 
 															form.pain-form .form-group {
-																margin-bottom: 12px;
-																/* reduced from 15px */
+																margin-bottom: 10.2px;
+																/* 15% smaller */
 															}
 
 															form.pain-form label {
 																display: block;
-																margin-bottom: 3.2px;
-																/* reduced from 4px */
+																margin-bottom: 2.72px;
+																/* 15% smaller */
 															}
 
 															form.pain-form input[type="text"],
 															form.pain-form input[type="email"],
 															form.pain-form input[type="tel"] {
 																width: 100%;
-																padding: 6.4px;
-																/* reduced from 8px */
+																padding: 5.44px;
+																/* 15% smaller */
 																box-sizing: border-box;
 																border: 1px solid #ccc;
 																border-radius: 4px;
+																background-color: #f2f2f2;
+																/* a slightly darker shade */
 															}
 
 															form.pain-form input[type="checkbox"] {
-																margin-right: 8px;
-																/* reduced from 10px */
+																margin-right: 6.8px;
+																/* 15% smaller */
+																background-color: #f2f2f2;
+																/* a slightly darker shade */
+															}
+
+															form.pain-form input[type="text"]:focus,
+															form.pain-form input[type="email"]:focus,
+															form.pain-form input[type="tel"]:focus,
+															form.pain-form input[type="checkbox"]:focus {
+																background-color: #ffffff;
+																/* change to white when selected */
 															}
 
 															form.pain-form input[type="submit"] {
 																padding: 10.4px 20.8px;
-																/* increased by 30% */
 																font-size: 18.2px;
-																/* increased by 30% */
 																border: 2px solid #ffffff;
-																/* White border */
 																background-color: #ffffff;
-																/* White background color */
 																color: #90D492;
-																/* Green text color */
 																cursor: pointer;
 																font-weight: bold;
 																float: right;
 																border-radius: 5px;
 																box-shadow: none;
 																transition: border 0.3s ease;
-																/* Smooth transition for hover effect */
 															}
 
 															form.pain-form input[type="submit"]:hover {
 																padding: 11.4px 22.04px;
-																/* Adjust padding for hover effect */
 															}
 
 															form.pain-form .choice-note {
 																clear: both;
 																display: block;
-																margin-top: 6.4px;
-																/* reduced from 8px */
-																margin-bottom: 12px;
-																/* reduced from 15px */
+																margin-top: 5.44px;
+																/* 15% smaller */
+																margin-bottom: 10.2px;
+																/* 15% smaller */
 															}
 														</style>
+
 													<form class="pain-form">
 														<div class="form-group">
 															<label for="name">Name *</label>
