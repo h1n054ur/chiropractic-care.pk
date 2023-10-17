@@ -725,19 +725,16 @@
 														<style>
 															form.pain-form {
 																width: 600px;
-																/* Keeping the width same */
 																font-family: Arial, sans-serif;
 															}
 
 															form.pain-form .form-group {
 																margin-bottom: 15px;
-																/* Reduced from 20px */
 															}
 
 															form.pain-form label {
 																display: block;
 																margin-bottom: 4px;
-																/* Reduced from 5px */
 															}
 
 															form.pain-form input[type="text"],
@@ -745,7 +742,6 @@
 															form.pain-form input[type="tel"] {
 																width: 100%;
 																padding: 8px;
-																/* Reduced padding */
 																box-sizing: border-box;
 																border: 1px solid #ccc;
 																border-radius: 4px;
@@ -756,28 +752,37 @@
 															}
 
 															form.pain-form input[type="submit"] {
-																padding: 8px 16px;
-																/* Reduced padding */
-																border: none;
-																background-color: #fff;
+																padding: 10px 20px;
+																border: 2px solid #ffffff;
+																/* White border */
+																background-color: #ffffff;
+																/* White background color */
 																color: #90D492;
+																/* Green text color */
 																cursor: pointer;
+																font-weight: bold;
 																float: right;
+																border-radius: 5px;
+																box-shadow: none;
+																/* Making sure there's no shadow or any other effects */
+																transition: border-width 0.3s ease;
+																/* Smooth transition for hover effect */
 															}
 
 															form.pain-form input[type="submit"]:hover {
-																background-color: #eee;
+																border-width: 4px;
+																/* Thicker border on hover for a lifted appearance */
 															}
 
 															form.pain-form .choice-note {
 																clear: both;
 																display: block;
 																margin-top: 8px;
-																/* Reduced margin */
 																margin-bottom: 15px;
-																/* Reduced margin */
 															}
 														</style>
+
+
 
 													<form class="pain-form">
 														<div class="form-group">
