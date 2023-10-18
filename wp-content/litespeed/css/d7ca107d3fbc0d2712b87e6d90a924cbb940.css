@@ -8689,14 +8689,12 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
 }
 
 .mobile_menu_bar:before {
-  content: url('/img/icons/menu-icon-18.png');
-  position: absolute;
+  content: "▼";
+  font-size: 32px;
+  position: relative;
   left: 0;
   top: 0;
-  cursor: pointer;
-  /* You might need to adjust the width and height depending on the image's dimensions */
-  width: 32px; 
-  height: 32px;
+  cursor: pointer
 }
 
 .et_pb_module .mobile_menu_bar:before {
