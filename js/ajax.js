@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         })
         .then(data => {
-            alert('Form successfully submitted!');
+            alert('Thanks for submitting a form. We will contact you shortly.');
             form.reset(); // Clear the form after successful submission
         })
         .catch((error) => {
