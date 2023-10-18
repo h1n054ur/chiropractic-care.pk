@@ -7820,7 +7820,7 @@ input[type=search]::-webkit-search-cancel-button {
 
 .mobile_menu_bar:before,
 .et_toggle_slide_menu:after {
-  content: "D";
+  content: "\61";
   font-size: 32px;
   left: 0;
   position: relative;
@@ -8689,12 +8689,14 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
 }
 
 .mobile_menu_bar:before {
-  content: "D";
-  font-size: 32px;
-  position: relative;
+  content: '/img/icons/menu-icon-18.png';
+  position: absolute;
   left: 0;
   top: 0;
-  cursor: pointer
+  cursor: pointer;
+  /* You might need to adjust the width and height depending on the image's dimensions */
+  width: 32px; 
+  height: 32px;
 }
 
 .et_pb_module .mobile_menu_bar:before {
