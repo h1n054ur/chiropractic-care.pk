@@ -331,16 +331,22 @@
 											<div id="contact"
 												class="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_1 et_clickable  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
 												<div class="et_pb_blurb_content">
-													<div class="et_pb_main_blurb_image"><span
-															class="et_pb_image_wrap"><span
-																class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone et-pb-icon et-pb-icon-circle et-pb-icon-circle-border"></span></span>
-													</div>
-													<div class="et_pb_blurb_container">
-														<h5 class="et_pb_module_header"><span>Phone</span></h5>
-														<div class="et_pb_blurb_description">
-															<p>+65 6681 6698</p>
+													<!-- Wrapping the image and phone number in an anchor tag for the tel: protocol -->
+													<a href="tel:+6566816698">
+														<div class="et_pb_main_blurb_image">
+															<!-- Replacing the span with an img tag for a local image -->
+															<span class="et_pb_image_wrap">
+																<img src="path/to/your/local/image.png" alt="Phone Icon"
+																	class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone">
+															</span>
 														</div>
-													</div>
+														<div class="et_pb_blurb_container">
+															<h5 class="et_pb_module_header"><span>Phone</span></h5>
+															<div class="et_pb_blurb_description">
+																<p>+65 6681 6698</p>
+															</div>
+														</div>
+													</a>
 												</div>
 											</div>
 											<div
