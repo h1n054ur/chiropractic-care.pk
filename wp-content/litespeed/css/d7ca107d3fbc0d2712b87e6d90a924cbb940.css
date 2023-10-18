@@ -7820,7 +7820,7 @@ input[type=search]::-webkit-search-cancel-button {
 
 .mobile_menu_bar:before,
 .et_toggle_slide_menu:after {
-  content: "\61";
+  content: "D";
   font-size: 32px;
   left: 0;
   position: relative;
